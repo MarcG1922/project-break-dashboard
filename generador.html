@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de Contraseñas</title>
+  <link rel="stylesheet" href="styles/generador.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Generador de Contraseñas Seguras</h1>
+
+    <label for="longitud">Longitud (12 - 50):</label>
+    <input type="number" id="longitud" min="12" max="50" value="12">
+
+    <button id="generar">Generar contraseña</button>
+
+    <div class="resultado-box">
+      <p id="resultado"></p>
+    </div>
+  </div>
+
+      <a href="index.html" class="back"> Volver al Dashboard</a>
+  </main>
+
+  <script src="scripts/generador.js"></script>
+
+</body>
+</html>
