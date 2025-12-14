@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estación Meteorológica</title>
+  <link rel="stylesheet" href="styles/estacion.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Estación meteorológica</h1>
+
+    <div class="weather-card">
+      <h2 id="location">Ciudad, País</h2>
+
+      <p id="condition">Estado del clima</p>
+
+      <img id="icon" src="" alt="Icono del clima">
+
+      <p class="temp"><span id="temp">--</span> °C</p>
+
+      <p>Precipitaciones: <span id="rain">--</span> mm</p>
+      <p>Humedad: <span id="humidity">--</span> %</p>
+      <p>Viento: <span id="wind">--</span> km/h</p>
+    </div>
+
+    <h3>Previsión por horas</h3>
+    <div id="forecast" class="forecast"></div>
+
+    <a href="index.html" class="back">Volver al Dashboard</a>
+  </div>
+
+  <script src="scripts/estacion.js"></script>
+   <script src="scripts/fondo.js"></script>
+</body>
+</html>
